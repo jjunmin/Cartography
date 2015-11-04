@@ -81,6 +81,7 @@
 		54FA3A401951A41B0094B82A /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FA3A3F1951A41B0094B82A /* Compound.swift */; };
 		54FA3A421951A8070094B82A /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FA3A411951A8070094B82A /* Size.swift */; };
 		54FA3A441951A9730094B82A /* SizeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FA3A431951A9730094B82A /* SizeSpec.swift */; };
+<<<<<<< 5f84cab0530dc4a9e05ef5b76cbd7a3efd1de5ff
 		632F09271BF1E7FC002431A3 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632F090A1BF1E7AA002431A3 /* Cartography.framework */; };
 		632F09341BF1F0DD002431A3 /* Cartography.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C96A16195063CD000CDD27 /* Cartography.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		632F09351BF1F127002431A3 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BF29AF1A9348B30066ED10 /* Align.swift */; };
@@ -118,6 +119,10 @@
 		632F09551BF1F15C002431A3 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DE2B9E1ABE2BC5004D62D8 /* TestView.swift */; };
 		66AF7EEE1CABEABC00249E27 /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF7EED1CABEABC00249E27 /* LayoutSupport.swift */; };
 		A75B6143FF12C54FF3223B47 /* Pods_TestPods_Cartography_tvOS_tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0827A83361EACF1E6062607E /* Pods_TestPods_Cartography_tvOS_tests.framework */; };
+=======
+		6271A7DC1BEA04B400696E3D /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6271A7DB1BEA04B400696E3D /* Layout.swift */; settings = {ASSET_TAGS = (); }; };
+		6271A7DD1BEA04BA00696E3D /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6271A7DB1BEA04B400696E3D /* Layout.swift */; settings = {ASSET_TAGS = (); }; };
+>>>>>>> add layout file
 		BBAC6D131A22A27900E8A3E2 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC6D121A22A27900E8A3E2 /* ViewUtils.swift */; };
 		BBAC6D141A22A3AC00E8A3E2 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC6D121A22A27900E8A3E2 /* ViewUtils.swift */; };
 		BBAC6D1B1A22A8F300E8A3E2 /* ViewHierarchySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB41A06E1A229BF7007142FE /* ViewHierarchySpec.swift */; };
@@ -228,6 +233,7 @@
 		54FA3A3F1951A41B0094B82A /* Compound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compound.swift; sourceTree = "<group>"; };
 		54FA3A411951A8070094B82A /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		54FA3A431951A9730094B82A /* SizeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeSpec.swift; sourceTree = "<group>"; };
+<<<<<<< 5f84cab0530dc4a9e05ef5b76cbd7a3efd1de5ff
 		632F090A1BF1E7AA002431A3 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		632F09221BF1E7FC002431A3 /* Cartography-tvOS-tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cartography-tvOS-tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		646D273E5E982865688DF028 /* Pods_Cartography_tvOS_tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cartography_tvOS_tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -236,6 +242,9 @@
 		7BBFE24E2FED786C571966AE /* Pods_Cartography_Mac_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cartography_Mac_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3596ED3F137EB677E57692 /* Pods-TestPods-Cartography-tvOS-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPods-Cartography-tvOS-tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestPods-Cartography-tvOS-tests/Pods-TestPods-Cartography-tvOS-tests.release.xcconfig"; sourceTree = "<group>"; };
 		825625A8CCFA9B2B102BDDDB /* Pods_TestPods_Cartography_Mac_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPods_Cartography_Mac_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		6271A7DB1BEA04B400696E3D /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
+>>>>>>> add layout file
 		BB41A06E1A229BF7007142FE /* ViewHierarchySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewHierarchySpec.swift; sourceTree = "<group>"; };
 		BBAC6D121A22A27900E8A3E2 /* ViewUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
 		EEDD4098FF7503B1F9188F10 /* Pods_Cartography_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cartography_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -387,6 +396,7 @@
 				545F858C195322EA00791F75 /* Edges.swift */,
 				546E9E941950A97F00B16707 /* Expression.swift */,
 				54B093961A7165F2008A1102 /* Extensions.swift */,
+				6271A7DB1BEA04B400696E3D /* Layout.swift */,
 				546E9E881950A29300B16707 /* LayoutProxy.swift */,
 				66AF7EED1CABEABC00249E27 /* LayoutSupport.swift */,
 				54FA3A3B1951A2B60094B82A /* Point.swift */,
@@ -854,6 +864,7 @@
 				546E9E8D1950A31100B16707 /* Dimension.swift in Sources */,
 				54DF9F3319DAD8DA00EE3609 /* Constrain.swift in Sources */,
 				5467916F1A93962000DC9BF7 /* Distribute.swift in Sources */,
+				6271A7DC1BEA04B400696E3D /* Layout.swift in Sources */,
 				546E9E911950A76C00B16707 /* Edge.swift in Sources */,
 				54FA3A421951A8070094B82A /* Size.swift in Sources */,
 				54FA3A3C1951A2B60094B82A /* Point.swift in Sources */,
@@ -903,6 +914,7 @@
 				54B093991A716A2E008A1102 /* Extensions.swift in Sources */,
 				54F6A859195C213A00313D24 /* Priority.swift in Sources */,
 				54F6A852195C213A00313D24 /* Coefficients.swift in Sources */,
+				6271A7DD1BEA04BA00696E3D /* Layout.swift in Sources */,
 				54143E4E1A93991D00208182 /* Distribute.swift in Sources */,
 				54F6A85A195C213A00313D24 /* Point.swift in Sources */,
 				54B093981A716A2A008A1102 /* ConstraintGroup.swift in Sources */,
